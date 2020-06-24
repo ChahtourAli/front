@@ -1,0 +1,33 @@
+/*------------------------------------
+  File for your custom SCSS style
+------------------------------------*/
+.ReactCollapse--collapse {
+  transition: height 100ms;
+}
+.toast-container {
+  .toast-success {
+    > button {
+      color: white;
+      opacity: 1;
+    }
+    color: white;
+    background-color: $success;
+  }
+
+  .toast-danger {
+    > button {
+      color: white;
+      opacity: 1;
+    }
+    color: white;
+    background-color: $danger;
+  }
+  .toast-info {
+    > button {
+      color: white;
+      opacity: 1;
+    }
+    color: white;
+    background-color: $primary;
+  }
+}

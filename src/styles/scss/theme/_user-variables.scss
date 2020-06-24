@@ -1,0 +1,51 @@
+// user-variables.scss
+// Use this to overwrite Bootstrap and Front variables
+//
+
+// Example of a variable override to change Front's primary color and font size
+// Remove the "//" to comment it in and see it in action!
+$primary: #123054;
+$primary-lighter: #4974a8;
+$primary-darker: #041429;
+// $primary_404_svg: rgb(202, 139, 44);
+$primary_404_svg: $primary;
+
+$font-size-base: 0.875rem;
+$coffe-color: #eac988;
+$brown: #362415;
+$light-brown: #604c4c;
+
+// Front's primary color has lighter as well as darker color versions,
+// and they also need to be changed upon changing the primary color to a different hex code - otherwise the color of some blocks might look not professional.
+// Here is a list of colors that associate these changes:
+$secondary: #fcd402;
+$dark: #252525;
+// The color of the SVG loader should be modified manually.
+// See assets/svg/preloaders/circle-preloader.svg
+$grey: #242424;
+$gold: #ffc000;
+$white: #ffffff;
+$black: #000000;
+$light-grey: #b9b9b9;
+$red: #ff4545;
+$light-orange: #fb8970;
+$light-white: #f9fafe;
+$light-green: #03be42;
+// font-size
+$default-font-size: 16px;
+$body-bg: #fdfdfd;
+// button
+$radius: 8px;
+$btn-border-width: 2px;
+
+$eDonec-grey: #f5f5f5;
+$eDonec-purple: #450442;
+$eDonec-green: #4d7c68;
+$eDonec-pink: #bf3a7c;
+$eDonec-blue: #29657d;
+$eDonec-yellow: #bf8d34;
+$eDonec-navbar: #3e0c29;
+
+body {
+  overflow-x: hidden;
+}

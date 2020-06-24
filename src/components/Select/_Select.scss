@@ -1,0 +1,7 @@
+.u-has-error {
+  > div {
+    > div {
+      border-color: $form-error-border-color;
+    }
+  }
+}

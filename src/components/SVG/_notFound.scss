@@ -1,0 +1,64 @@
+.fill-svg-primary {
+  //#ffa300
+  fill: $primary_404_svg;
+}
+
+.fill-svg-primary-lighter-1x {
+  //#ffa300
+  fill: lighten($color: $primary_404_svg, $amount: 10%);
+}
+
+.fill-svg-primary-lighter-2x {
+  //#ffa300
+  fill: lighten($color: $primary_404_svg, $amount: 20%);
+}
+
+.fill-svg-primary-lighter-3x {
+  //#ffa300
+  fill: lighten($color: $primary_404_svg, $amount: 30%);
+}
+
+.fill-svg-primary-lighter-4x {
+  //#ffa300
+  fill: lighten($color: $primary_404_svg, $amount: 40%);
+}
+
+.fill-svg-primary-lighter-5x {
+  //#ffa300
+  fill: lighten($color: $primary_404_svg, $amount: 50%);
+}
+
+.fill-svg-primary-lighter-6x {
+  //#ffa300
+  fill: lighten($color: $primary_404_svg, $amount: 60%);
+}
+
+.fill-svg-primary-darker-1x {
+  //#ffa300
+  fill: darken($color: $primary_404_svg, $amount: 10%);
+}
+
+.fill-svg-primary-darker-2x {
+  //#ffa300
+  fill: darken($color: $primary_404_svg, $amount: 20%);
+}
+
+.fill-svg-primary-darker-3x {
+  //#ffa300
+  fill: darken($color: $primary_404_svg, $amount: 30%);
+}
+
+.fill-svg-primary-darker-4x {
+  //#ffa300
+  fill: darken($color: $primary_404_svg, $amount: 40%);
+}
+
+.fill-svg-primary-darker-5x {
+  //#ffa300
+  fill: darken($color: $primary_404_svg, $amount: 50%);
+}
+
+.fill-svg-primary-darker-6x {
+  //#ffa300
+  fill: darken($color: $primary_404_svg, $amount: 60%);
+}

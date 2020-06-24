@@ -1,0 +1,18 @@
+.react-timekeeper {
+  position: fixed !important;
+  top: 27px;
+  left: calc(50vw - 130px);
+  z-index: 1000000;
+}
+.react-timekeeper__clock-hand {
+  stroke: $primary-lighter;
+}
+.react-timekeeper__hand-circle-center {
+  fill: $primary-lighter;
+}
+.react-timekeeper__hand-circle-outer {
+  fill: lighten($primary-lighter, 40);
+}
+.react-timekeeper__hand-intermediate-circle {
+  fill: $primary-darker;
+}

@@ -1,0 +1,19 @@
+.loader {
+  position: fixed;
+  height: calc(100vh + 35px);
+  width: 100vw;
+  top: -35px;
+  left: 0;
+  z-index: 10000000000;
+  @include flex-center-center;
+  flex-direction: column;
+  background-color: $white;
+
+  > svg {
+    height: 3rem;
+  }
+
+  > div {
+    margin-top: 3rem;
+  }
+}
