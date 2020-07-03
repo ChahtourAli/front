@@ -3,8 +3,8 @@ import React from 'react';
 function Table() {
   return (
     <div>
-      <table class="table">
-        <thead class="thead-dark">
+      <table className="table col-lg-11 m-auto">
+        <thead className="thead-dark">
           <tr>
             <th scope="col">Code Agence</th>
             <th scope="col">Lib Agence</th>
@@ -20,17 +20,17 @@ function Table() {
             <th scope="row">
               <input />
             </th>
-            <td>Mark</td>
+            <td></td>
             <td>
               <input />
             </td>
-            <td>@mdo</td>
+            <td></td>
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
         </tbody>
       </table>
