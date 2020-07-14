@@ -1,25 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import InputField from 'components/InputField';
 import { reduxForm } from 'redux-form';
-import { fetchAgenceList } from 'actions';
 import { useDispatch } from 'react-redux';
-function Signin() {
+import { signin } from 'actions/auth/auth';
+import { useHistory } from 'react-router-dom';
+function Signin({ handleSubmit }) {
   const dispatch = useDispatch();
-  dispatch(fetchAgenceList());
+
+  const history = useHistory();
+  const login = ({ name, password }) => {
+    console.log(name);
+    dispatch(signin(name, password, history));
+  };
   return (
-    <form className="container align-items-center d-flex flex-column">
+    <form
+      onSubmit={handleSubmit(login)}
+      className="container align-items-center d-flex flex-column"
+    >
       <center>
         <h1 className="mt-5">Login</h1>
       </center>
       <div className="col-4 space-3">
-        <InputField name="login" label="Username" />
+        <InputField name="name" label="Username" />
         <InputField
-          name="pass"
+          name="password"
           forgotPasswordMessage="forgot username/password"
           label="Password"
           type="password"
         />
-        <button className="btn btn-primary btn-block ">Connexion</button>
+        <button type="submit" className="btn btn-primary btn-block ">
+          Connexion
+        </button>
       </div>
     </form>
   );

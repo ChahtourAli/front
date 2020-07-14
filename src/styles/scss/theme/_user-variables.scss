@@ -4,9 +4,11 @@
 
 // Example of a variable override to change Front's primary color and font size
 // Remove the "//" to comment it in and see it in action!
-$primary: #123054;
+$primary: #a71a1a;
 $primary-lighter: #4974a8;
 $primary-darker: #041429;
+$infos: #f9b701;
+$info: #de5a29;
 // $primary_404_svg: rgb(202, 139, 44);
 $primary_404_svg: $primary;
 
@@ -33,7 +35,7 @@ $light-white: #f9fafe;
 $light-green: #03be42;
 // font-size
 $default-font-size: 16px;
-$body-bg: #fdfdfd;
+// $body-bg: #fdfdfd;
 // button
 $radius: 8px;
 $btn-border-width: 2px;

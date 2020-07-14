@@ -8,6 +8,7 @@ import Navbar from 'components/Navbar/Navbar';
 import Versement from 'pages/Versement/Versement';
 import HistoriqueOperation from 'pages/HistoriqueOperation/HistoriqueOperation';
 import HomePageSiege from 'pages/HomePageSiege/HomePageSiege';
+import Footer from 'components/Footer/Footer';
 
 const App = () => {
   let location = useLocation();
@@ -27,6 +28,7 @@ const App = () => {
         <Route exact path="/Commande" component={Commande} />
         <Route component={NotFound} />
       </Switch>
+      {location.pathname !== '/' && <Footer />}
     </div>
   );
 };

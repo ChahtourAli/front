@@ -4,8 +4,8 @@ import Navbar from 'components/Navbar/Navbar';
 import Table from 'components/Table/Table';
 function Home() {
   return (
-    <div>
-      <Table />;
+    <div style={{ width: '100vw' }}>
+      <Table />
     </div>
   );
 }
